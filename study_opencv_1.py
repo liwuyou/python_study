@@ -2,9 +2,10 @@
 import cv2 as cv
 
 # 获取摄像头
-cap = cv.VideoCapture(2)
+cap = cv.VideoCapture(0)
 # set the height(3) and width(4) of the windows
 # windows系统下，微软surface的系统摄像头，该设置失效，原因未明
+# 外置摄像头OK
 cap.set(3, 640)
 cap.set(4, 480)
 
